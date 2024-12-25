@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+<meta name="csrf-token" content="">
+<link href="https://exipayn.com/images/fav.png" rel="icon" />
+
+<title>Page Not Found
+</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="robots" content="">
+<meta name="revisit-after" content="">
+<meta name="author" content="ExipayN.com">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900' type='text/css'>
+<link rel="stylesheet" href="https://exipayn.com/css/all.css" id="stylesheet">
+<link rel="stylesheet" href="https://exipayn.com/dist/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css" id="stylesheet">
+<link rel="stylesheet" href="https://exipayn.com/dist/assets/css/scrollbar.css" id="stylesheet">
+<link rel="stylesheet" href="https://exipayn.com/dist/css/select2.min.css" id="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/sweetalert2@7.33.1/dist/sweetalert2.min.css">
+<script src="https://unpkg.com/sweetalert@2.1.0/dist/sweetalert.min.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js?render=6LcD0RooAAAAAH6-9n8UV_soPzP3R06GifAfwvmh"></script><script>
+                    var csrfToken = document.head.querySelector('meta[name="csrf-token"]');
+                  grecaptcha.ready(function() {
+                      grecaptcha.execute('6LcD0RooAAAAAH6-9n8UV_soPzP3R06GifAfwvmh', {action: '/'}).then(function(token) {
+                        
+                fetch('https://exipayn.com/biscolab-recaptcha/validate?token=' + token, {
+                    headers: {
+                        "X-Requested-With": "XMLHttpRequest",
+                        "X-CSRF-TOKEN": csrfToken.content
+                    }
+                })
+                .then(function(response) {
+                   	
+                })
+                .catch(function(err) {
+                    
+                });
+                      });
+                  });
+		     </script>
+  <!-- Web Application Manifest -->
+<link rel="manifest" href="https://exipayn.com/manifest.json">
+<!-- Chrome for Android theme color -->
+<meta name="theme-color" content="#0c2f55">
+
+<!-- Add to homescreen for Chrome on Android -->
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="application-name" content="ExiPayN">
+<link rel="icon" sizes="512x512" href="/images/icons/icon-512x512.png">
+
+<!-- Add to homescreen for Safari on iOS -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="ExiPayN">
+<link rel="apple-touch-icon" href="/images/icons/icon-512x512.png">
+
+
+<link href="/images/icons/splash-640x1136.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="/images/icons/splash-750x1334.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="/images/icons/splash-1242x2208.png" media="(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+<link href="/images/icons/splash-1125x2436.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+<link href="/images/icons/splash-828x1792.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="/images/icons/splash-1242x2688.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+<link href="/images/icons/splash-1536x2048.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="/images/icons/splash-1668x2224.png" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="/images/icons/splash-1668x2388.png" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="/images/icons/splash-2048x2732.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+
+<!-- Tile for Win8 -->
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/images/icons/icon-512x512.png">
+
+<script type="text/javascript">
+    // Initialize the service worker
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('serviceworker.js', {
+            scope: '.'
+        }).then(function (registration) {
+           
+        }, function (err) {
+           
+        });
+    }
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N3RBX63P');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Analytics Start-->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8QR5KRXXBR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8QR5KRXXBR');
+</script>
+<!-- Google Analytics End-->
+</head>
+
+<body class="html" id="style-2">
+
+    <div id="preloader">
+      <div data-loader="dual-ring"></div>
+    </div>
+<div id="main-wrapper">
+      <header id="header">
+    <div class="container">
+       <div class="header-row">
+          <div class="header-column justify-content-start">
+             <div class="logo">
+                <a href="https://exipayn.com" title="Recharge to Nepal from India-ExiPayN">
+                  <img src="https://exipayn.com/images/nepalekart_white.png" alt="nepalekart" width="150" height="57" /></a>
+             </div>
+          </div>
+          <div class="header-column justify-content-end">
+             <nav class="primary-menu navbar navbar-expand-lg navbar-light navbar-default">
+                <div class="collapse navbar-collapse" id="header-nav">
+                   <ul class="navbar-nav">
+                      <li class="dropdown active">
+                         <a class="dropdown-toggle" href="#">Recharge & Bill Payment</a> 
+                         <ul class="dropdown-menu">
+                            <li class="dropdown"><a class="dropdown-item" href="https://exipayn.com">Mobile</a></li>
+                            <li class="dropdown"><a class="dropdown-item" href="https://exipayn.com/data-service">Data Service</a></li>
+                            <li class="dropdown"><a class="dropdown-item" href="https://exipayn.com/dth">DTH</a></li>
+                            <li class="dropdown"><a class="dropdown-item" href="https://exipayn.com/recharge-card">Recharge Card</a> </li>
+                            <li class="dropdown"><a class="dropdown-item" href="https://exipayn.com/internet-bill">Internet Bill</a></li>
+                            <li class="dropdown"><a class="dropdown-item" href="https://exipayn.com/landline">Landline</a> </li>
+                            <li class="dropdown"><a class="dropdown-item" href="https://exipayn.com/electricity">Electricity</a> </li>
+                            <li class="dropdown"><a class="dropdown-item" href="https://exipayn.com/water">Water</a></li>
+                            <li class="dropdown"><a class="dropdown-item" href="https://exipayn.com/insurance">Insurance</a></li>
+                            <li class="dropdown"><a class="dropdown-item" href="https://exipayn.com/in">Ind Recharge</a></li>
+                         </ul>
+                      </li>
+                                            <li class="login-signup ml-lg-2"><a class="pl-lg-4 pr-0" data-toggle="modal" data-target="#login-signup" href="#" title="Login / Sign up">Login / Sign up <span class="d-none d-lg-inline-block"><i class="fas fa-user"></i></span></a></li>
+                                         </ul>
+                   
+                                   </div>
+             </nav>
+             <!-- Primary Navigation end --> 
+             <div class="translate_control" lang="en"></div>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header-nav"> 
+          <span></span> 
+          <span></span> 
+          <span></span> 
+          </button>
+       </div>
+    </div>
+    
+    <noscript>
+       <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1648324612151965&ev=PageView&noscript=1"/>
+    </noscript>
+ </header>            
+      
+              <style>
+        
+/*======================
+    404 page
+=======================*/
+
+
+.page_404{ padding:40px 0; background:#fff; font-family: 'Arvo', serif;
+}
+
+.page_404  img{ width:100%;}
+
+.four_zero_four_bg{
+ 
+ background-image: url(https://www.exipayn.com/images/404.gif);
+    height: 400px;
+    background-position: center;
+ }
+ 
+ 
+ .four_zero_four_bg h1{
+ font-size:80px;
+ }
+ 
+  .four_zero_four_bg h3{
+			 font-size:80px;
+			 }
+			 
+			 .link_404{			 
+	color: #fff!important;
+    padding: 10px 20px;
+    background: #39ac31;
+    margin: 20px 0;
+    display: inline-block;}
+	.contant_box_404{ margin-top:-50px;}
+        </style>
+
+<section class="page_404">
+	<div class="container">
+		<div class="row">	
+		<div class="col-sm-12 ">
+		<div class="col-sm-10 col-sm-offset-1  text-center">
+		<div class="four_zero_four_bg">
+			<h1 class="text-center ">404</h1>
+		
+		
+		</div>
+		
+		<div class="contant_box_404">
+		<h3 class="h2">
+		Look like you're lost
+		</h3>
+		
+		<a href="https://www.exipayn.com " class="link_404">Go to Home</a>
+	</div>
+		</div>
+		</div>
+		</div>
+	</div>
+</section>
+  
+
+              
+
+            <footer id="footer">
+    <section class="section bg-light shadow-md pt-4 pb-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-3">
+            <div class="featured-box text-center">
+              <div class="featured-box-icon"> <i class="fas fa-lock"></i> </div>
+              <h4>100% Secure Payments</h4>
+              <p>Moving your card details to a much more secured place.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <div class="featured-box text-center">
+              <div class="featured-box-icon"> <i class="fas fa-thumbs-up"></i> </div>
+              <h4>Trust pay</h4>
+              <p>100% Payment Protection. Easy recharge process.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <div class="featured-box text-center">
+              <div class="featured-box-icon"> <i class="fas fa-bullhorn"></i> </div>
+              <h4>Refer</h4>
+              <p>Invite a friend to sign up & pass recharge instantly</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <div class="featured-box text-center">
+              <div class="featured-box-icon"> <i class="far fa-life-ring"></i> </div>
+              <h4>24X7 Email Support</h4>
+              <p>Need help ? Mail Us at cs@exipayn.com Or <a href="https://exipayn.com/help/support">Click here</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+   <!--  custom recharge -->
+    <div class="container mt-4">
+      <div class="row">
+         <div class="col-md-3 mb-3 mb-md-0 ">
+        <h5>Company</h5>
+           <ul class="simple-ul">
+            <li class="nav-item"> <a class="footer-link" href="https://exipayn.com/about-us">About Us</a> </li>
+            <li class="nav-item"> <a class="footer-link" href="https://exipayn.com/help/faq">Faq</a> </li>
+            <li class="nav-item"> <a class="footer-link" href="https://exipayn.com/terms-of-use">Terms of Use</a> </li>
+            <li class="nav-item"> <a class="footer-link" href="https://exipayn.com/privacy-policy">Privacy Policy</a> </li>
+            <li class="nav-item"> <a class="footer-link" href="https://exipayn.com/shipping-policy">Shipping Policy</a> </li>
+            <li class="nav-item"> <a class="footer-link" href="https://exipayn.com/refund-policy">Refund Policy</a> </li>
+            <li class="nav-item"> <a class="footer-link" href="https://exipayn.com/return-policy">Return Policy</a> </li>
+           </ul>
+            
+      </div>
+ 
+      <div class="col-md-3 mb-3 mb-md-0">
+        <h5>Mobile Topup</h5>
+          <ul class="simple-ul">
+        <li><a href="https://exipayn.com/manual/ncell" class="footer-link">
+        Ncell Prepaid/Postpaid</a></li>
+            <li><a href="https://exipayn.com/manual/ntc" class="footer-link">NTC Prepaid/Postpaid</a></li>
+            <li><a href="https://exipayn.com/manual/sky" class="footer-link">NTC Sky/CDMA</a></li>
+            <li><a href="https://exipayn.com/manual/ntc" class="footer-link">NTC Landline</a></li>
+            <li><a href="https://exipayn.com/utl" class="footer-link">UTL</a></li> 
+            <li><a href="https://exipayn.com/simtv" class="footer-link">Sim TV</a></li>  
+            <li><a href="https://exipayn.com/manual/smartcell" class="footer-link">SmartCell</a></li> 
+          </ul> 
+      </div>
+      <div class="col-md-3 mb-3 mb-md-0">
+        <h5>Others Link</h5>
+           <ul class="simple-ul">
+           <li class="nav-item"> <a class="footer-link" href="https://exipayn.com/check-status">Track Complaint Status</a> </li>
+          <li class="nav-item"> <a class="footer-link" href="https://exipayn.com/manual-recharge-status">Check Manual Status</a> </li>
+          <li class="nav-item"> <a class="footer-link" href="https://exipayn.com/bank">Bank Account</a> </li>
+          <li><a href="https://exipayn.com/electricity"  class="footer-link">Nepal Electricity Authority</a></li>
+          <li><a href="https://exipayn.com/manual/nepal-water"  class="footer-link">Nepal Water</a></li>
+          <li><a href="https://www.exipayn.com/recharge-card"  class="footer-link">Recharge Card </a></li>
+              
+          </ul> 
+      </div>
+      <div class="col-md-3 mb-3 mb-md-0">
+        <h5>Support Details</h5>
+        <ul class="simple-ul">
+            <li>Email id: <a href="cs@exipayn.com"  class="footer-link">cs@exipayn.com</a></li>
+            <li>Mobile: +91-94038-91911</li>
+            <li>Whatsapp : +91-88826-53804</li>
+            <li>Tel No: 011-46080371</li>
+            <li class="nav-item"> <a class="footer-link" href="https://exipayn.com/contact-us">Contact</a> </li>
+            <li class="nav-item"> <a class="footer-link" href="https://exipayn.com/help/support">Support</a> </li>
+          </ul> 
+          
+      </div>
+ 
+    <div class="clearfix"> </div>
+  
+
+      </div>
+    </div>
+   <!--  Custom recharge ends -->
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-md-4 mb-3 mb-md-0">
+          <p>Payment</p>
+          <ul class="payments-types">
+            <li><a href="#" target="_blank"> <img data-toggle="tooltip" src="https://exipayn.com/images/payment/visa.png" alt="visa" title="Visa"></a></li>
+            <li><a href="#" target="_blank"> <img data-toggle="tooltip" src="https://exipayn.com/images/payment/discover.png" alt="discover" title="Discover"></a></li>
+            <li><a href="#" target="_blank"> <img data-toggle="tooltip" src="https://exipayn.com/images/payment/paypal.png" alt="paypal" title="PayPal"></a></li>
+            <li><a href="#" target="_blank"> <img data-toggle="tooltip" src="https://exipayn.com/images/payment/american.png" alt="american express" title="American Express"></a></li>
+            <li><a href="#" target="_blank"> <img data-toggle="tooltip" src="https://exipayn.com/images/payment/mastercard.png" alt="mastercard" title="Master Card"></a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-3 mb-md-0">
+          <p>Subscribe</p>
+          <form action="https://exipayn.com/subscribe" method="post" id="subscribe">
+          <div class="input-group newsletter">
+            <input class="form-control" placeholder="Your Email Address" name="email" id="newsletterEmail" type="email" required="">
+            <span class="input-group-append">
+              <input type="hidden" name="_token" value="">               
+              <button class="btn btn-primary btn-block" type="submit">Subscribe</button>
+            </span> </div>            
+            </form>
+        </div>
+        
+        <div class="col-md-4 d-flex align-items-md-end flex-column">
+          <p>Keep in touch</p>
+          <ul class="social-icons social-icons-colored">
+            <li class="social-icons-facebook"><a data-toggle="tooltip" href="https://www.facebook.com/exipayn/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="social-icons-youtube"><a data-toggle="tooltip" href="https://www.youtube.com/channel/UC3a04VUILljMIkrPYZDjeMA/featured" target="_blank" title="Youtube"><i class="fab fa-youtube"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <br>
+    
+    <div class="container">
+      <div class="footer-copyright">
+        
+     
+        <p class="copyright-text">©2024 ExiPayN. Crafted with <i class="fa fa-heart text-danger"></i> by <a href="https://www.stintlieftechnologies.com" target="_blank">StintLief Technologies</a>. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>      </div>
+
+
+<a id="back-to-top" data-toggle="tooltip" title="Back to Top" href="javascript:void(0)">
+  <i class="fa fa-chevron-up"></i>
+</a>
+
+
+
+ 
+<div id="login-signup" class="modal fade" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content p-sm-3">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+        <ul class="nav nav-tabs" role="tablist">
+          <li class="nav-item"> <a id="login-tab" class="nav-link active text-4" data-toggle="tab" href="#login" role="tab" aria-controls="login" aria-selected="true">Login</a> </li>
+          <li class="nav-item"> <a id="signup-tab" class="nav-link text-4" data-toggle="tab" href="#signup" role="tab" aria-controls="signup" aria-selected="false">Sign Up</a> </li>
+        </ul>
+        <div class="tab-content pt-4">
+          <div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
+          <form id="loginForm" method="post" action="https://exipayn.com/login">
+            <input type="hidden" name="_token" value="">              <div class="form-group">
+                <input type="email" class="form-control" name="email" required placeholder="Mobile or Email ID">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" name="password" required placeholder="Password">
+              </div>
+              <div class="row mb-4">
+   
+                <div class="col-sm text-right"> <a class="justify-content-end" href="https://exipayn.com/forget-password">Forgot Password ?</a> </div>
+              </div>
+              <button class="btn btn-primary btn-block" type="submit">Login</button>
+            </form>
+          </div>
+          <div class="tab-pane fade" id="signup" role="tabpanel" aria-labelledby="signup-tab">
+            <form id="signupForm" method="post" action="https://exipayn.com/signup">
+              <div class="form-group">
+                <input type="text" class="form-control" name="name"  required placeholder="Enter Your Full name">
+              </div>
+               <div class="form-group">
+                <input type="email" class="form-control" name="email"  required placeholder="Enter Your Email">
+              </div>
+               <div class="form-group">
+                <input type="text" class="form-control" name="address"  required placeholder="Enter Your Address">
+              </div>
+              <div class="form-group">
+                <input type="number" class="form-control" name="phone" required placeholder="Enter your 10 digits Mobile Number">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" name="password" id="signuploginPassword" required placeholder="Password must of 8 digits">
+              </div>
+                <div class="form-group">
+                <input type="password" class="form-control" name="password_confirmation" id="signuploginConfirmPassword" required placeholder="Confirm Password">
+              </div>
+              <div class="form-group row">
+                <div class="col-md-2 col-sm-2 col-xs-2" style="display: inline-block;">
+                <input type="checkbox" class="form-control" name="subscribe" checked>
+              </div>
+              <div class="col-md-10 col-sm-10 col-xs-10 pull-right">
+               <p>Recieve Latest Offers , Cashbacks and Many More</p>
+              </div>
+              </div>
+               <input type="hidden" name="_token" value="">
+              <button class="btn btn-primary btn-block" type="submit">Signup</button>
+            </form>
+          </div>
+        
+      
+        </div>
+      </div>
+    </div>
+  </div>
+</div>  
+
+
+<script type="text/javascript" src="https://exipayn.com/js/app.js"></script>
+<script type="text/javascript" src="https://exipayn.com/js/all.js"></script>
+<script type="text/javascript" src="https://exipayn.com/dist/js/jquery_cookie.js"></script>
+<script type="text/javascript" src="https://exipayn.com/dist/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="https://exipayn.com/vendor/jsvalidation/js/jsvalidation.js"></script>
+ <script>
+    jQuery(document).ready(function(){
+
+        $("#signupForm").each(function() {
+            $(this).validate({
+                errorElement: 'span',
+                errorClass: 'help-block error-help-block',
+
+                errorPlacement: function (error, element) {
+                    if (element.parent('.input-group').length ||
+                        element.prop('type') === 'checkbox' || element.prop('type') === 'radio') {
+                        error.insertAfter(element.parent());
+                        // else just place the validation message immediately after the input
+                    } else {
+                        error.insertAfter(element);
+                    }
+                },
+                highlight: function (element) {
+                    $(element).closest('.form-group').removeClass('has-success').addClass('has-error'); // add the Bootstrap error class to the control group
+                },
+
+                
+                ignore: ":hidden, [contenteditable='true']",
+                
+                /*
+                 // Uncomment this to mark as validated non required fields
+                 unhighlight: function(element) {
+                 $(element).closest('.form-group').removeClass('has-error').addClass('has-success');
+                 },
+                 */
+                success: function (element) {
+                    $(element).closest('.form-group').removeClass('has-error').addClass('has-success'); // remove the Boostrap error class from the control group
+                },
+
+                focusInvalid: false, // do not focus the last invalid input
+                
+                rules: {"name":{"laravelValidation":[["Required",[],"The name field is required.",true,"name"],["Min",["4"],"Please enter your full name.",false,"name"],["String",[],"The name must be a string.",false,"name"]]},"address":{"laravelValidation":[["Required",[],"The address field is required.",true,"address"],["Min",["8"],"Please fill proper address",false,"address"]]},"phone":{"laravelValidation":[["Required",[],"The phone field is required.",true,"phone"],["Numeric",[],"The phone must be a number.",false,"phone"],["Digits",["10"],"Phone number must of 10 digits",false,"phone"]],"laravelValidationRemote":[["Unique",["phone","eyJpdiI6IjBEaE9OVEVFNmpQQTI4RFI5OVd5RFE9PSIsInZhbHVlIjoibE1wMkEvdDBJYVBIbUQ1ejlpNzgxdz09IiwibWFjIjoiODIzOGJmMGU3MmE4YTI1YzdmZmUyMTQxODViMjdiMTRkMWZjNjc5OWEyNWQ2YTkzODRkNGJlZjc3MDllYTEzOCIsInRhZyI6IiJ9",false],"The phone has already been taken.",false,"phone"]]},"email":{"laravelValidation":[["Required",[],"The email field is required.",true,"email"],["Email",[],"The email must be a valid email address.",false,"email"]],"laravelValidationRemote":[["Unique",["email","eyJpdiI6IjBEaE9OVEVFNmpQQTI4RFI5OVd5RFE9PSIsInZhbHVlIjoibE1wMkEvdDBJYVBIbUQ1ejlpNzgxdz09IiwibWFjIjoiODIzOGJmMGU3MmE4YTI1YzdmZmUyMTQxODViMjdiMTRkMWZjNjc5OWEyNWQ2YTkzODRkNGJlZjc3MDllYTEzOCIsInRhZyI6IiJ9",false],"The email has already been taken.",false,"email"]]},"password":{"laravelValidation":[["Required",[],"The password field is required.",true,"password"],["Min",["8 "],"The password must be at least 8  characters.",false,"password"]]},"password_confirmation":{"laravelValidation":[["Required",[],"The password confirmation field is required.",true,"password_confirmation"],["Min",["8"],"The password confirmation must be at least 8 characters.",false,"password_confirmation"]]}}            });
+        });
+    });
+</script>
+
+ <script>
+    jQuery(document).ready(function(){
+
+        $("#manualForm").each(function() {
+            $(this).validate({
+                errorElement: 'span',
+                errorClass: 'help-block error-help-block',
+
+                errorPlacement: function (error, element) {
+                    if (element.parent('.input-group').length ||
+                        element.prop('type') === 'checkbox' || element.prop('type') === 'radio') {
+                        error.insertAfter(element.parent());
+                        // else just place the validation message immediately after the input
+                    } else {
+                        error.insertAfter(element);
+                    }
+                },
+                highlight: function (element) {
+                    $(element).closest('.form-group').removeClass('has-success').addClass('has-error'); // add the Bootstrap error class to the control group
+                },
+
+                
+                ignore: ":hidden, [contenteditable='true']",
+                
+                /*
+                 // Uncomment this to mark as validated non required fields
+                 unhighlight: function(element) {
+                 $(element).closest('.form-group').removeClass('has-error').addClass('has-success');
+                 },
+                 */
+                success: function (element) {
+                    $(element).closest('.form-group').removeClass('has-error').addClass('has-success'); // remove the Boostrap error class from the control group
+                },
+
+                focusInvalid: false, // do not focus the last invalid input
+                
+                rules: {"operator":{"laravelValidation":[["Required",[],"The operator field is required.",true,"operator"]]},"email":{"laravelValidation":[["Bail",[],"validation.bail",false,"email"],["Required",[],"The email field is required.",true,"email"],["Email",[],"The email must be a valid email address.",false,"email"]]},"indian_phone":{"laravelValidation":[["Bail",[],"validation.bail",false,"indian_phone"],["Required",[],"The indian phone field is required.",true,"indian_phone"],["Numeric",[],"The indian phone must be a number.",false,"indian_phone"],["Digits",["10"],"Phone number must of 10 digits",false,"indian_phone"]]},"amount_npr":{"laravelValidation":[["Required",[],"The amount npr field is required.",true,"amount_npr"]]}}            });
+        });
+    });
+</script>
+
+    <script type="text/javascript" src="https://exipayn.com/dist/js/form-customisation.js"></script>
+<script type="text/javascript" src="https://exipayn.com/dist/js/jquery.buttonLoader.min.js"></script>
+<script type="text/javascript" src="https://exipayn.com/dist/assets/js/custom-nepal.js"></script>
+    <script type="text/javascript" src="https://exipayn.com/dist/js/select2.min.js"></script>
+<script type="text/javascript">
+      $(".myselect").select2();
+</script>
+
+
+    <script>
+            (function () {
+                var options = {
+                    whatsapp: "+91 (940) 389-1911",
+                    facebook: "129987886845057",
+                    call: "+91-9403-891911",
+                    call_to_action: "How we may help you",
+                    button_color: "#FF0000",
+                    position: "right",
+                    order: "whatsapp,facebook,call"
+                };
+                var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+                var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+                s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+                var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+            })();
+    </script>
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N3RBX63P"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+  
+</body>
+
+</html>
